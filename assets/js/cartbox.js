@@ -16,7 +16,7 @@
     CartBox.prototype.initAffix = function () {
         var $affixEl = this.$el.closest('.affix-cart'),
             offsetTop = $('.navbar-top').height(),
-            offsetBottom = $('footer.footer').outerHeight(true),
+            offsetBottom = $('.footer').outerHeight(true),
             cartWidth = $affixEl.parent().width()
 
         $affixEl.affix({
